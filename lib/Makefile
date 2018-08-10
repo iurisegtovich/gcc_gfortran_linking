@@ -7,3 +7,6 @@ m2: #links the o to a shared object so, the -shared tells it is not a standalone
 	gfortran  -shared libfunc.o -o libfunc.so
 m2b: #archives the objects in a static library libfunc.a
 	ar rcv libfunc.a libfunc.o
+m2a_mingw: #mingw ld wont link if named so, must be dll
+	gfortran  -shared libfunc.o -o libfunc.dll
+	
