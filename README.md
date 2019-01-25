@@ -15,3 +15,8 @@ $ export LIBRARY_PATH
 $ LIBRARY_PATH="C:/mingw/local/lib;$LIBRARY_PATH"
 
 (http://www.mingw.org/wiki/HOWTO_Specify_the_Location_of_Libraries_for_use_with_MinGW)
+
+
+also:
+https://unix.stackexchange.com/questions/44990/what-is-the-difference-between-path-and-ld-library-path
+https://stackoverflow.com/questions/4250624/ld-library-path-vs-library-path
