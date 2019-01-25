@@ -24,3 +24,6 @@ https://stackoverflow.com/questions/4250624/ld-library-path-vs-library-path
 summary:
 LD_LIBRARY_PATH is searched when the program starts, LIBRARY_PATH is searched at link time.
 PATH: executables (e.g. /home/username/bin:/usr/local/bin:/usr/bin:/bin).
+
+about ld_library_path and ld_run_path
+https://www.hpc.dtu.dk/?page_id=1180
