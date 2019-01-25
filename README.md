@@ -20,3 +20,7 @@ $ LIBRARY_PATH="C:/mingw/local/lib;$LIBRARY_PATH"
 also:
 https://unix.stackexchange.com/questions/44990/what-is-the-difference-between-path-and-ld-library-path
 https://stackoverflow.com/questions/4250624/ld-library-path-vs-library-path
+
+summary:
+LD_LIBRARY_PATH is searched when the program starts, LIBRARY_PATH is searched at link time.
+PATH: executables (e.g. /home/username/bin:/usr/local/bin:/usr/bin:/bin).
